@@ -30,17 +30,32 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    As the name "semantic" implies, these tags are used to relay 'meaning' to a browser about parts of a web page. These semantics also improve SEO as well as accessibility for your web pages. In some cases you will use non-semantic tags as well, such as a div or a span tag. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Two big differences between "display: block;" and "display: inline; are as follows: block takes a width and height, and takes up the entire parent container width by default, where inline cannot take a width or height property and by default only is as large as it's nested content size.
 
 3. What are the 4 areas of the box model?
 
+    The 4 areas of the box model are content, padding, border and margin.
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    in CSS Flexbox the "align-items: center;" property works on the cross-axis.
+
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable to a team of developers because it allows the whole team to work on the same project easily while maintaining the integrity of everyone's previous save incase anyone should need to start from an earlier version of their work history.a
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
