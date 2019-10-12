@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    background-color: #222;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,7 +70,39 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 50px 50px 0 50px;
+    background-color: #fff;
 }
+
+header{
+    display: flex;
+    margin: 0 0 25px 0;
+}
+
+
+nav{
+    margin: 25px 0 0 50px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 0 30px 0 0;
+    padding: 5px;
+    color: #666;
+    background-color: rgba(100, 100, 100, 0);
+    border-radius: 5px;
+    -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 2s;
+    -webkit-transition: color 3s; /* For Safari 3.1 to 6.0 */
+    transition: color 3s;
+}
+
+nav a:hover{
+    color: #fff;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+/* /////////////////////////////////////////////////////////////// */
 
 .top-content {
     display: flex;
@@ -79,11 +112,22 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.jumbo{
+    width: 100%;
+    margin: 0 0 25px 0;
+}
+
+.jumbo img{
+    width: 100%;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* /////////////////////////////////////////////////////////////// */
 
 .middle-content {
     margin-bottom: 20px;
@@ -110,6 +154,45 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:hover{
+    border: 1px solid #777;
+    -webkit-transition: border 2s; /* For Safari 3.1 to 6.0 */
+    transition: border 2s;
+    cursor: pointer;
+
+}
+
+.boxes .box.b1{
+    background-color: teal;
+}
+.boxes .box.b2{
+    background-color: gold;    
+}
+.boxes .box.b3{
+    background-color: cadetblue;
+}
+.boxes .box.b4{
+    background-color: coral;
+}
+.boxes .box.b5{
+    background-color: crimson;
+}
+.boxes .box.b6{
+    background-color: forestgreen;
+}
+.boxes .box.b7{
+    background-color: darkorchid;
+}
+.boxes .box.b8{
+    background-color:hotpink;
+}
+.boxes .box.b9{
+    background-color: indigo;
+}
+.boxes .box.b10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +227,185 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ############################## ABOUT ########################## */
+/* ############################################################## */
+
+.about-page section.about-top-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 0 25px 0;
+    margin-bottom: 25px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top-content h1{
+    text-align: left;
+    width: 100%;
+}
+
+.about-top-content div.jumbo{
+    width: 100%;
+}
+
+.upperSection{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0 0 0;
+}
+
+.upperSection img{
+    width: 100%;
+}
+
+.upperSection img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.upperSection h2{
+    margin: 15px 0;
+}
+
+.about-upper-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 25px 0;
+}
+
+button{
+    margin: 15px 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.upperdiv1{
+    width: 48%; 
+    border-bottom: 1px dashed black;
+    margin: 0 0 15px 0;
+}
+
+.upperdiv2{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 0 0 15px 0;
+}
+
+/* /////////////// */
+
+.about-lower-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lowerDiv1{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 0 0 15px 0;
+}
+
+.lowerDiv2{
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 0 0 15px 0;
+}
+/* //////////////// */
+
+.about-bottom-content{
+    padding: 25px 0 0 0;
+}
+
+/* ############################## ABOUT ########################## */
+/* ############################################################## */
+
+.products-top-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 0 25px 0;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+.products-top-content div.jumbo{
+    height: 200px;
+}
+
+.products-top-content img{
+    height: 100%;
+}
+
+.products-top-content h1{
+    text-align: left;
+    width: 100%;
+}
+
+.products1{
+    display: flex;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px dashed #333;
+}
+
+.products1 .div1{
+    width: 48%;
+}
+
+.products1 .div2{
+    width: 48%;
+}
+
+/* ////////// */
+
+.products2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px dashed #333;
+}
+
+.products2 .div1{
+    width: 48%;
+    -webkit-transition: width 0s; /* Safari prior 6.1 */
+    transition: width 0s;
+}
+
+.products2 .div2{
+    width: 48%;
+}
+
+/* ///////////// */
+
+.products3{
+    display: flex;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px dashed #333;
+}
+
+.products3 .div1{
+    width: 48%;
+}
+
+.products3 .div1 img{
+    width: 80%;
+}
+
+.products3 .div2{
+    width: 48%;
+}
+
+.products4{
+    display: flex;
+    padding: 25px 0 25px 0;
+    margin: 0 0 25px 0;
+}
+
+/* ////////// */
