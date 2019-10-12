@@ -86,8 +86,20 @@ nav{
 
 nav a{
     text-decoration: none;
-    margin: 0 40px 0 0;
+    margin: 0 30px 0 0;
+    padding: 5px;
     color: #666;
+    background-color: rgba(100, 100, 100, 0);
+    border-radius: 5px;
+    -webkit-transition: background-color 2s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 2s;
+    -webkit-transition: color 2s; /* For Safari 3.1 to 6.0 */
+    transition: color 2s;
+}
+
+nav a:hover{
+    color: #fff;
+    background-color: rgba(50, 50, 50, 1);
 }
 
 /* /////////////////////////////////////////////////////////////// */
@@ -142,6 +154,14 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box:hover{
+    border: 1px solid #777;
+    -webkit-transition: border 2s; /* For Safari 3.1 to 6.0 */
+    transition: border 2s;
+    cursor: pointer;
+
 }
 
 .boxes .box.b1{
@@ -239,6 +259,13 @@ footer nav a {
     width: 100%;
 }
 
+.upperSection img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
 .upperSection h2{
     margin: 15px 0;
 }
@@ -247,10 +274,15 @@ footer nav a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 0 25px 0;
 }
 
 button{
     margin: 15px 0;
+}
+
+button:hover{
+    cursor: pointer;
 }
 
 .upperdiv1{
@@ -289,3 +321,91 @@ button{
 .about-bottom-content{
     padding: 25px 0 0 0;
 }
+
+/* ############################## ABOUT ########################## */
+/* ############################################################## */
+
+.products-top-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 0 25px 0;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+.products-top-content div.jumbo{
+    height: 200px;
+}
+
+.products-top-content img{
+    height: 100%;
+}
+
+.products-top-content h1{
+    text-align: left;
+    width: 100%;
+}
+
+.products1{
+    display: flex;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px dashed #333;
+}
+
+.products1 .div1{
+    width: 48%;
+}
+
+.products1 .div2{
+    width: 48%;
+}
+
+/* ////////// */
+
+.products2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px dashed #333;
+}
+
+.products2 .div1{
+    width: 48%;
+    -webkit-transition: width 0s; /* Safari prior 6.1 */
+    transition: width 0s;
+}
+
+.products2 .div2{
+    width: 48%;
+}
+
+/* ///////////// */
+
+.products3{
+    display: flex;
+    padding: 0 0 25px 0;
+    margin: 0 0 25px 0;
+    border-bottom: 1px dashed #333;
+}
+
+.products3 .div1{
+    width: 48%;
+}
+
+.products3 .div1 img{
+    width: 80%;
+}
+
+.products3 .div2{
+    width: 48%;
+}
+
+.products4{
+    display: flex;
+    padding: 25px 0 25px 0;
+    margin: 0 0 25px 0;
+}
+
+/* ////////// */
